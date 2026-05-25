@@ -55,7 +55,7 @@ function About() {
 
       <FadeIn direction="up" delay={300}>
         <a
-          href="/Pranjalresume.pdf"
+          href="/pranjalresume.pdf"
           download
           className="inline-flex items-center gap-2 text-sm text-primary font-mono hover:underline underline-offset-4 transition-all duration-200"
         >

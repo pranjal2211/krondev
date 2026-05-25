@@ -151,7 +151,7 @@ function Sidebar() {
 
       {/* Resume */}
         <a
-        href="/Pranjalresume.pdf"
+        href="/pranjalresume.pdf"
         download
         className="inline-flex items-center gap-2 text-sm text-primary border border-primary/40 rounded-lg px-4 py-2 hover:bg-primary/10 transition-colors duration-200 w-fit font-mono"
       >
