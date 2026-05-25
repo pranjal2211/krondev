@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Dark mode — default */
+html.dark {
+  --color-bg: #0F0F0F;
+  --color-surface: #1A1A2E;
+  --color-text: #ffffff;
+  --color-muted: #8892A4;
+  --color-border: rgba(255, 255, 255, 0.08);
+  color-scheme: dark;
+}
+
+/* Light mode */
+html:not(.dark) {
+  --color-bg: #F5F5F5;
+  --color-surface: #FFFFFF;
+  --color-text: #111827;
+  --color-muted: #000000;
+  --color-border: rgba(0, 0, 0, 0.1);
+  color-scheme: light;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
